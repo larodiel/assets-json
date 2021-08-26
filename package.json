@@ -1,0 +1,38 @@
+{
+  "name": "@larods/assets-json",
+  "author": "Victor Larodiel <me@larods.com.br> (https://github.com/larodiel)",
+  "version": "0.1.0",
+  "description": "A package to generate a JSON file with all your assets",
+  "license": "GPL-3.0-or-later",
+  "main": "index.js",
+  "engines": {
+    "node": ">=12"
+  },
+  "funding": [
+    {
+      "type" : "individual",
+      "url" : "https://streamelements.com/larods/tip"
+    }
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/larodiel/assets-json.git"
+  },
+  "keywords": [
+    "assets",
+    "json",
+    "manifest",
+    "generator"
+  ],
+  "bugs": {
+    "url": "https://github.com/larodiel/assets-json/issues"
+  },
+  "homepage": "https://github.com/larodiel/assets-json#readme",
+  "dependencies": {
+    "glob": "^7.1.7",
+    "md5": "^2.3.0"
+  }
+}
